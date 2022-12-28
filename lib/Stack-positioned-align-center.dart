@@ -69,7 +69,7 @@ class StackPage extends StatelessWidget {
     ]);
   }
 
-// 利用 stack 实现相对、绝对定位 (stack 是谁的子集就是相对于谁定位)
+// 利用 stack 实现相对、绝对定位
   // @override
   // Widget build(BuildContext context) {
   //   // 结合 Row Column Expanded 实现
