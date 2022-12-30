@@ -31,6 +31,11 @@ class _HomePageState extends State<HomePage> {
                       .pushNamed('/search', arguments: {'title': "hi"});
                 },
                 child: const Text('跳转到 search')),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pushNamed('/dialog');
+                },
+                child: const Text('跳转到 my dialog')),
           ],
         ),
       ),
