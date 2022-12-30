@@ -68,6 +68,7 @@ class ClipOvalImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 对子组件进行椭圆式裁剪
     return ClipOval(
       child: Image.network(
         'https://avatars.githubusercontent.com/u/99799032',

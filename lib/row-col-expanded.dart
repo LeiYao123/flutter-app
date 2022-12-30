@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,7 +7,7 @@ void main() {
       title: 'my app title',
       home: Scaffold(
           appBar: AppBar(title: const Text('练习 flutter widget')),
-          body: HomePage())));
+          body: const HomePage())));
 }
 
 class HomePage extends StatelessWidget {
